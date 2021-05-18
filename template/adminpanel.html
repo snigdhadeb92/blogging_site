@@ -1,0 +1,36 @@
+{% extends "adminlayout.html"%}
+{% block body %}
+
+<div class="container">
+
+<a class="btn btn-primary float-left" href="/upload">Add New Post &rarr;</a>
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>S.No.</th>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Edit</th>
+        <th>Delete</th>
+
+      </tr>
+    </thead>
+    
+    {% for post in posts %}
+
+    <tbody>
+      <tr>
+        <td>{{loop.index}}</td>
+        <td>{{post.title}}</td>
+        <td>{{post.date}}</td>
+        <td><a href="/edit/{{post.id}}"><button class="btn btn-success">Edit</button></a></td>
+        <td><a href="/delete/{{post.id}}"><button class="btn btn-danger">Delete</button></a></td>
+      </tr>
+    {% endfor %} 
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+

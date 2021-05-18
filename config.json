@@ -1,0 +1,21 @@
+{
+    "params":
+    {
+        "abt_txt":"I am Snigdhadeb Ash, I am a Web Developer",
+        "local_server":"True",
+        "local_uri": "mysql://root:@localhost/my_blog",
+        "prod_uri": "mysql://root:@localhost/my_blog",
+        "fb_uri": "https://www.facebook.com/The-Tech-Cube-105519300805344",
+        "blog_name": "Snigdhadeb Blog!!!",
+        "tag_line": "Let's make something different...",
+        "gmail_user":"kushalash555@gmail.com",
+        "gmail_password":"123456Sa!",
+        "no_of_post": 2,
+        "admin_user": "snigdhadeb123",
+        "admin_password": "123456",
+        "upload_location":"D:\\flask\\gadgetHub\\static\\img"
+        
+
+    }
+
+}

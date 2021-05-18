@@ -1,0 +1,23 @@
+{% extends "adminlayout.html"%}
+{% block body %}
+<h1>Edit Post</h1>
+<form method="post" action="">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Title</label>
+  <input type="text" class="form-control"  id="title" value="{{post.title}}" name="title" placeholder="title">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Slug</label>
+  <input type="text" class="form-control" id="slug" value="{{post.slug}}" name="slug"  placeholder="slug">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Content</label>
+  <textarea class="form-control" id="content" name="content" rows="20"  placeholder="content">{{post.content}}</textarea>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Image</label>
+  <input type="text" class="form-control" id="img_file" name="img_file" value="{{post.img_file}}"  placeholder="Image">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
