@@ -1,7 +1,7 @@
 {
     "params":
     {
-        "abt_txt":"I am Snigdhadeb Ash, I am a Web Developer",
+        "abt_txt":"I am Snigdhadeb Ash, I am a Web Developer. My favorite technologies are Flask, Php, Html5 Css3, Javascript. Travling and Photography is my best passion.",
         "local_server":"True",
         "local_uri": "mysql://root:@localhost/my_blog",
         "prod_uri": "mysql://root:@localhost/my_blog",
